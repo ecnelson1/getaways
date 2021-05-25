@@ -2,6 +2,11 @@
 An app for booking amazing getaway vacations.
 
 ## Getting Started
+
+**Prerequisites**
+- Install [MongoDB](https://docs.mongodb.com/manual/administration/install-community/)
+- (Optional) Install [MongoDB Compass](https://docs.mongodb.com/compass/current/)
+
 Once you've cloned the repo, you'll need to start both the backend and frontend for the app. From the repo's directory, run:
 
 ```bash
