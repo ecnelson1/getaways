@@ -21,3 +21,14 @@ export const getPlaces = async () => {
     throw new Error(await response.json());
   }
 };
+
+
+export const getAPlace = async (id) => {
+    const response = await fetch(`${process.env.BASE_URL}/places/${id}`);
+    if (response.ok) {
+      const result = await response.json();
+      return result
+    } else {
+      throw new Error(await response.json());
+    }
+ };
