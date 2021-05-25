@@ -1,10 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Place from './Place';
+import {Link} from 'react-router-dom';
 
 const PlaceList = ({ places }) => {
-  return places.map((place) => <Place key={place.id} {...place} />);
-};
+  return places.map((place) => 
+  <Link key ={place.id} to={`/places/${place.id}`}>
+  <Place key={place.id} {...place} />
+  </Link>)
+}
 
 PlaceList.propTypes = {
   places: PropTypes.arrayOf(
