@@ -2,7 +2,6 @@
 An app for booking amazing getaway vacations.
 
 ## Getting Started
-
 Once you've cloned the repo, you'll need to start both the backend and frontend for the app. From the repo's directory, run:
 
 ```bash
@@ -20,17 +19,24 @@ npm start
 ```
 
 ### Lab Ideas
+The goal of this lab is to provide an example of tackling work in an existing codebase. It's meant to serve as a way to acclimate you to the process of diving into a codebase, reading and understanding what's currently implemented, and then using that understanding to add on & improve the project.
+
+The lab ideas below are a combination of feature requests, bugs to fix, and tech debt. If you have an idea for something to add, feel free to [create an issue](https://github.com/alchemycodelab/getaways/issues/new).
+
 - [ ] Add "Loading..." State (1 point)
 - [ ] Style Places List (2 points)
 - [ ] Add Place Detail Page (3 points)
 - [ ] Add User Registration Page (2 points)
 - [ ] Add Login Page (2 points)
-- [ ] Add Logout Page (2 points)
-- [ ] Create "Edit User" Endpoint (1 point)
-- [ ] Create "Edit User" Page (2 points)
-- [ ] Add Places List Pagination (1 point)
+- [ ] Add Logout Button/Page (2 points)
+- [ ] Create "Edit User" Endpoint (2 points)
+  - [ ] Create "Edit User" Page (2 points)
+- [ ] Add Places List Pagination - API (2 points)
+- [ ] Add Places List Pagination - client (2 points)
 - [ ] Add API Tests (1 point)
 - [ ] Add Front End Tests (3 points)
 - [ ] Add "Create Booking" Page (4 points)
 - [ ] Create "Cancel Booking" Endpoint (2 points)
-- [ ] Add "Cancel Booking" Page (2 points)
+  - [ ] Add "Cancel Booking" Page (2 points)
+- [ ] Prevent duplicate users from being created (1 point)
+- [ ] Require email, username, and password when creating a new user (1 point)
