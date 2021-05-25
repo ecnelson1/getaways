@@ -14,8 +14,8 @@ const placeTypes = [
 ];
 
 Place.create(
-  [...Array(50)].map(() => {
-    const name = `${faker.commerce.productAdjective()} ${faker.random.arrayElement(
+  [...Array(100)].map(() => {
+    const name = `${faker.commerce.productAdjective()} ${faker.company.catchPhraseAdjective()} ${faker.random.arrayElement(
       placeTypes
     )}`;
     const images = [
