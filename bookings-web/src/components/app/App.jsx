@@ -1,6 +1,25 @@
 import React from 'react';
 import Getaways from '../../containers/Getaways';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import HomePage from '../home/HomePage';
+import PlaceDetails from '../places/PlaceDetails';
 
 export default function App() {
-  return <Getaways />;
+  return (
+    <Router>
+        <Route
+        exact path='/'
+        component={HomePage}
+        />
+         <Route
+        exact path='/places'
+        component={Getaways}
+        />
+          <Route
+        exact path='/places/:id'
+        component={PlaceDetails}
+        />
+    </Router>
+  )
 }
+
